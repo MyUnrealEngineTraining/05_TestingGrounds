@@ -1,9 +1,0 @@
-{
-	"configurations": [
-		{
-			"name": "TestingGroundsEditor Editor Win64 Development (TestingGrounds)",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "I:\\projects\\udemy-c++\\05_TestingGrounds\\TestingGrounds\\.vscode\\compileCommands_TestingGrounds.json"
-		}
-	]
-}
