@@ -12,7 +12,7 @@
 EBTNodeResult::Type UChooseNextwayPoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 	const auto BlackboardComp = OwnerComp.GetBlackboardComponent();
-	auto Index = BlackboardComp->GetValueAsInt(IndexKey.SelectedKeyName);
+	const auto Index = BlackboardComp->GetValueAsInt(IndexKey.SelectedKeyName);
 	UE_LOG(LogTemp, Warning, TEXT("Waypoint index = %i"), Index)
 	
 	return EBTNodeResult::Succeeded;
